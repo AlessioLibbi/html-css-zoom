@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    /* DEBUG */
+    background-color: black;
+}
+
+.card-container {
+    padding: 50px;
+    
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: calc(100% / 7 ); 
+    padding: 3px;
+    position: relative;
+}
+
+.name {
+    position: absolute ;
+    bottom: 7px;
+    left: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
